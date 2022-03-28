@@ -1,0 +1,77 @@
+/* All Sections */
+
+.section {
+    margin: 200px 0px;
+}
+
+.section > h1 {
+    text-align: center;
+}
+
+/* Introduction Section */
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.greeting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.greeting-text > h1, .greeting-text > h2 {
+    margin: 0px;
+}
+
+.greeting-text > h1 {
+    font-size: 3em;
+  }
+  
+.greeting-text > a {
+    text-decoration: none;
+    background-color: #000040;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+.greeting-text a:hover {
+    background-color: #000060;
+}
+
+/* Skills Section */
+  
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.skill-item {
+    min-width: 200px;
+    background-color: #000020;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Projects Section */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
