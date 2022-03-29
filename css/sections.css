@@ -29,6 +29,15 @@
     align-items: center;
     animation-name: fadeIn;
     animation-duration: 2s;
+
+    background-color: #000020;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.greeting-text {
+    margin: 8px;
 }
 
 .greeting-text > h1, .greeting-text > h2 {
@@ -41,9 +50,10 @@
   
 .greeting-text > a {
     text-decoration: none;
-    background-color: #000040;
+    background-color: #000030;
     color: white;
     display: inline-block;
+    margin: 8px 0px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -58,10 +68,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
   
 .skill-item {
-    min-width: 200px;
+    width: 320px;
     background-color: #000020;
     margin: 20px;
     padding: 20px;
@@ -73,5 +85,32 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.project-item {
+    max-width: 300px;
+    background-color: #000020;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-item > a {
+    text-decoration: none;
+    background-color: #000030;
+    color: white;
+    display: inline-block;
+    margin: 8px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+  
+.project-item a:hover {
+    background-color: #000060;
 }
